@@ -1,0 +1,175 @@
+body {
+  background-image: url("Image.js/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*************************** First Container ************************/
+.backgroundImage {
+  height: 550px;
+  width: 490px;
+  margin-top: 40px;
+}
+.firstContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  position: absolute;
+  color: white;
+  margin-top: 40%;
+  margin-right: 20%;
+  font-size: 20px;
+  opacity: 0.7;
+}
+.time {
+  position: absolute;
+  color: white;
+  margin-top: 35%;
+  margin-right: 27%;
+  font-size: 28.6px;
+}
+.temp {
+  position: absolute;
+  color: white;
+  margin-top: 38%;
+  margin-right: 3.6%;
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+}
+.cityNameContainer {
+  margin-left: 313px;
+  position: absolute;
+  margin-bottom: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cityName {
+  color: white;
+  font-size: 40px;
+}
+
+.in {
+  color: white;
+  margin-bottom: 25%;
+  font-family: "Oxygen", sans-serif;
+}
+
+/**************************** Second Conatiner ******************/
+.sideContainer {
+  height: 550px;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+}
+
+/*************************************** Seach box ********************************/
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  z-index: 2;
+  position: absolute;
+  margin-left: 59%;
+  margin-top: 225px;
+}
+.search-box .search-bar {
+  border: none;
+  padding: 10px 11px;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid;
+  font-size: 16px;
+}
+.search-box .search-bar::placeholder {
+  color: white;
+}
+.search-bar:focus {
+  outline: none;
+  border-bottom: 1px solid gray;
+  transition: all 1s ease-in-out;
+}
+.search-box img {
+  width: 60%;
+  cursor: pointer;
+}
+.search-box .img-box {
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 50%;
+  height: 32px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+/*********************** Calculated Values Containers ***************/
+.weatherContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.WeatherCondition {
+  font-size: 40px;
+  color: white;
+}
+.sideColoum {
+  display: grid;
+  justify-content: center;
+  margin-top: 140px;
+}
+hr {
+  width: 265px;
+}
+.cityContainer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+
+}
+
+.temperature,
+.WindSpeed,
+.Humidity,
+.Visibility {
+  color: white;
+  padding: 2px;
+}
+.temperature p {
+  display: inline;
+  margin-left: 64px;
+}
+.WindSpeed p {
+  display: inline;
+  margin-left: 100px;
+}
+.Humidity p {
+  display: inline;
+  margin-left: 138px;
+}
+.Visibility p {
+  display: inline;
+  margin-left: 123px;
+}
+.Loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 100px;
+}
