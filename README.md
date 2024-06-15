@@ -4,11 +4,11 @@
 ## About
 -In the Weather app, I've utilized the Weather API and integrated it with a React application to deliver the latest Weather Condition to users.
 
-• Weather App: A simple and user-friendly weather application built with React and a weather API. 
-• Search and View: Users can search for a location and view the current weather and 5-day forecast. 
-• Accurate Data: The app provides accurate and up-to-date weather data to help users plan their day.
-• Easy to Use: The app has a clean and intuitive interface, making it easy for users to navigate and find the information they need. 
-• Open Source: The app is available on GitHub, allowing other developers to contribute and improve the codebase.
+- Weather App: A simple and user-friendly weather application built with React and a weather API. 
+- Search and View: Users can search for a location and view the current weather and 5-day forecast. 
+- Accurate Data: The app provides accurate and up-to-date weather data to help users plan their day.
+- Easy to Use: The app has a clean and intuitive interface, making it easy for users to navigate and find the information they need. 
+- Open Source: The app is available on GitHub, allowing other developers to contribute and improve the codebase.
  
 ### How to run the app?
 - The application was deployed on a [public url](https://weatherappbysaurabh.netlify.app/) with the help Netlify's cloud.
